@@ -1,5 +1,7 @@
 # Day 01. 스프링 부트 시작하기
 
+`( Spring Boot Reference 1.1 ~ 11.4 )`
+
 jar파일로 배포가능 (war파일로도 할 수는 있음)
 
 spring boot에는 내장톰캣이 있어서 jar파일로 배포하면 톰캣이 딸려감.

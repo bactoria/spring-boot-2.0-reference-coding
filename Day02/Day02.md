@@ -1,5 +1,7 @@
 # Day 02. Executable JAR 어떻게 만들고 어떻게 동작하는가
 
+`( Spring Boot Reference 11.5 ~ 13.4 )`
+
 **`fat jars`**
 
 컴파일된 클래스들과 어플리케이션을 실행하는데 필요한 모든 의존 jar들을 포함하고 있는 압축파일.
