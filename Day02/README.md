@@ -1,6 +1,6 @@
 # Day 02. Executable JAR 어떻게 만들고 어떻게 동작하는가
 
-`( Spring Boot Reference 11.5 ~ 13.4 )`
+**`Spring Boot Reference v2.0.2 ( 11.5 ~ 13.4 )`**
 
 **`fat jars`**
 

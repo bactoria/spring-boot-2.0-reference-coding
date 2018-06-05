@@ -1,6 +1,6 @@
 # Day 03. 스프링 부트 스타터
 
-`( Spring Boot Reference 13.5 ~ 15.1 )`
+**`Spring Boot Reference v2.0.2 ( 13.5 ~ 15.1 )`**
 
 &nbsp;
 
@@ -42,7 +42,7 @@ docs에서는 명명규칙이 나오기 전에 나온것들은 규칙을 따르�
 
 &nbsp;
 
-### 패키지를 만들어라
+## 패키지를 만들어라
 
 ![](assets/markdown-img-paste-20180529201309394.png)
 
@@ -55,7 +55,7 @@ docs에서는 명명규칙이 나오기 전에 나온것들은 규칙을 따르�
 
 &nbsp;
 
-### Main Application 클래스는 루트에 위치시켜라
+## Main Application 클래스는 루트에 위치시켜라
 
 Main Application 클래스는 모든 클래스의 최상위인 루트 패키지에 위치시켜라고 한다.
 

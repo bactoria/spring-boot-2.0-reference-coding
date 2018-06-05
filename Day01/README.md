@@ -1,6 +1,8 @@
 # Day 01. 스프링 부트 시작하기
 
-`( Spring Boot Reference 1.1 ~ 11.4 )`
+**`Spring Boot Reference v2.0.2 ( 1.1 ~ 11.4 )`**
+
+&nbsp;
 
 jar파일로 배포가능 (war파일로도 할 수는 있음)
 
