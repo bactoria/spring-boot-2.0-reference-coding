@@ -1,6 +1,6 @@
 # Day 04. @SpringBootApplication과 XML 빈 설정 파일 사용하기
 
-**`Spring Boot Reference v2.0.2 ( 15.2 ~ 20 )`**
+**`Spring Boot Reference v2.0.2 ( 15.2 ~ 20.0 )`**
 
 &nbsp;
 
