@@ -218,7 +218,13 @@ public class UserService {
 }
 ```
 
-#### Test Passed
+#### Test Passed 
+
+class가 컴포넌트이고, 생성자가 하나일 때
+
+파라미터가 빈이라면
+
+그 빈을 스프링이 알아서 주입해준다.
 
 &nbsp;
 
