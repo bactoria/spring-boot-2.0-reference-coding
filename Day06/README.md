@@ -411,15 +411,42 @@ child와 parent는 동일한 Environment를 사용
 
 ### Application 이벤트, 리스너
 
+**Event**
+
+`ApplicationStartingEvent`
+
+`ApplicationEnvironmentPreparedEvent`
+
+`ApplicationPreparedEvent`
+
+`ApplicationStartedEvent`
+
+`ApplicationReadyEvent`
+
+`ApplicationFailedEvent`
+
+&nbsp;
 &nbsp;
 
-#### 리스너를 @bean 으로 등록할 수 없다.
+```java
+@Component
+public class MyStartingListener implements ApplicationListener<ApplicationStartingEvent> {
+    @Override
+    public void onApplicationEvent(ApplicationStartingEvent applicationStartingEvent) {
+        System.out.println("APPLICATION IS STARTING");
+    }
+}
+```
 
-모든 빈들은 APplicationContext 에서 관리가 된다.
+**위 리스너는 bean으로 등록되지 않는다.**
 
-허나, 이벤트는 `ApplicationContext` 가 생성되기 전에 트리거 되기 때문에 리스너는 빈이 될 수 없다.
+왜냐?
 
-애플리케이션을 만들기 전에도 동작하는 이벤트가 있을 수 있기 때문.
+모든 bean들은 **ApplicationContext** 에서 관리가 된다.
+
+허나, `ApplicationStartingEvent` 는 **ApplicationContext** 가 생성되기 전에 트리거 되기 때문에 리스너는 빈으로 등록되지 않는다.
+
+따라서 다른 방법으로 등록해야 한다.
 
 &nbsp;
 
