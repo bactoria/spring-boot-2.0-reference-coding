@@ -35,4 +35,7 @@
 
 [Day 06. 배너 그리고 SpringApplication](./Day06/README.md) - SpringApplication, Log Level, Banner, Event Listener 
 
+[Day 07. SpringApplication 커스터마이징과 Admin 기능(MBeans)](./Day07/README.md) - Servlet/Reactive, args, ApplicationRunner
+
+
 ####
